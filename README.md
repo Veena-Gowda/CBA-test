@@ -13,8 +13,10 @@ TestNG tests are executed in the order of priority mentioned
 Tests can be configured to be executed at class level or individual tests level
 Configuration is attached in the project for reference - TESTNG_Config.jpg
 
-The POSTMAN tests are added under the project
+Run PetApiTest.java class which is present under src\test\java  (\src\test\java\com\io\rest\pet\api_test\PetApiTest.java)
+Pre-requisites: Testng should be installed 
 
+The POSTMAN tests are added under the project
 
 RestAssured
 Rest-Assured is an open-source Java Domain-specific language (DSL) that makes testing REST service simple. It simplifies things by eliminating the need to use boiler-plate code to test and validate complex responses. It also supports XML and JSON Request/Responses.
