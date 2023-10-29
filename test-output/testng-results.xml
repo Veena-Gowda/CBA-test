@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-29T18:38:13 AEDT" name="Default suite" finished-at="2023-10-29T18:38:28 AEDT" duration-ms="15357">
+    <groups>
+    </groups>
+    <test started-at="2023-10-29T18:38:13 AEDT" name="Default test" finished-at="2023-10-29T18:38:28 AEDT" duration-ms="15357">
+      <class name="com.io.rest.pet.api_test.PetApiTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.io.rest.pet.api_test.PetApiTest@1a6d8329]" started-at="2023-10-29T18:38:13 AEDT" name="setUp" finished-at="2023-10-29T18:38:13 AEDT" duration-ms="589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="givenValidDetails_Create_PetData_Check_StatusCode200()[pri:1, instance:com.io.rest.pet.api_test.PetApiTest@1a6d8329]" started-at="2023-10-29T18:38:13 AEDT" name="givenValidDetails_Create_PetData_Check_StatusCode200" finished-at="2023-10-29T18:38:21 AEDT" duration-ms="7319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- givenValidDetails_Create_PetData_Check_StatusCode200 -->
+        <test-method signature="givenPetID_Update_Check_StatusCode200()[pri:2, instance:com.io.rest.pet.api_test.PetApiTest@1a6d8329]" started-at="2023-10-29T18:38:21 AEDT" name="givenPetID_Update_Check_StatusCode200" finished-at="2023-10-29T18:38:22 AEDT" duration-ms="1627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- givenPetID_Update_Check_StatusCode200 -->
+        <test-method signature="givenPetIdReturn_Pet_Data_Check_StatusCode200()[pri:3, instance:com.io.rest.pet.api_test.PetApiTest@1a6d8329]" started-at="2023-10-29T18:38:22 AEDT" name="givenPetIdReturn_Pet_Data_Check_StatusCode200" finished-at="2023-10-29T18:38:24 AEDT" duration-ms="1427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- givenPetIdReturn_Pet_Data_Check_StatusCode200 -->
+        <test-method signature="givenPetId_Delete_Pet_Check_StatusCode200()[pri:4, instance:com.io.rest.pet.api_test.PetApiTest@1a6d8329]" started-at="2023-10-29T18:38:24 AEDT" name="givenPetId_Delete_Pet_Check_StatusCode200" finished-at="2023-10-29T18:38:25 AEDT" duration-ms="1436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- givenPetId_Delete_Pet_Check_StatusCode200 -->
+        <test-method signature="givenPetID_Delete_InvalidPet_Check_StatusCode404()[pri:5, instance:com.io.rest.pet.api_test.PetApiTest@1a6d8329]" started-at="2023-10-29T18:38:25 AEDT" name="givenPetID_Delete_InvalidPet_Check_StatusCode404" finished-at="2023-10-29T18:38:27 AEDT" duration-ms="1516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- givenPetID_Delete_InvalidPet_Check_StatusCode404 -->
+        <test-method signature="givenInvalid_PetID_checkGetPetId_Check_StatusCode404()[pri:6, instance:com.io.rest.pet.api_test.PetApiTest@1a6d8329]" started-at="2023-10-29T18:38:27 AEDT" name="givenInvalid_PetID_checkGetPetId_Check_StatusCode404" finished-at="2023-10-29T18:38:28 AEDT" duration-ms="1323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- givenInvalid_PetID_checkGetPetId_Check_StatusCode404 -->
+      </class> <!-- com.io.rest.pet.api_test.PetApiTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
